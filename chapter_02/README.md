@@ -42,3 +42,6 @@ It automatically creates REST API for your databse.
 #### Enable automatic RLS
 RLS stands for Row Level Security.
 - It controls which rows a user can read, insert, update, or delete.
+
+## DashBoard
+<img width="1920" height="1080" alt="db_" src="https://github.com/user-attachments/assets/9cf130ba-6903-4a92-bd73-5722a21810f1" />
