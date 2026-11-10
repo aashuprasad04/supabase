@@ -1,1 +1,15 @@
 
+# Chapter 2 – Supabase Setup & Dashboard
+
+| No. | Topic |
+|---:|---|
+| 11 | Create Supabase Account |
+| 12 | Create New Project |
+| 13 | Organization |
+| 14 | Project Settings |
+| 15 | Dashboard Overview |
+| 16 | Table Editor |
+| 17 | SQL Editor |
+| 18 | Database Settings |
+| 19 | API Settings |
+| 20 | Project URL & API Keys |
