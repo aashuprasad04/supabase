@@ -45,3 +45,13 @@ RLS stands for Row Level Security.
 
 ## DashBoard
 <img width="1920" height="1080" alt="db_" src="https://github.com/user-attachments/assets/9cf130ba-6903-4a92-bd73-5722a21810f1" />
+
+# suabase url And api key
+<img width="916" height="656" alt="image" src="https://github.com/user-attachments/assets/b8d9e2b3-a93b-4359-b461-6c1ed6bb1b77" />
+
+- REST API URL    :   "https://mofxjzremvuivjaisnyc.supabase.co/rest/v1/"
+- PROJECT URL     :   "https://mofxjzremvuivjaisnyc.supabase.co"
+
+<img width="941" height="846" alt="image" src="https://github.com/user-attachments/assets/aa79ae79-e9b3-49ca-8d7b-112264069a5d" />
+
+- API KEY        :    "sb_publishable_A-iGwxUMWBgVZlPXICsSlw_0DBwpIfp"
