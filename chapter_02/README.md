@@ -55,3 +55,41 @@ RLS stands for Row Level Security.
 <img width="941" height="846" alt="image" src="https://github.com/user-attachments/assets/aa79ae79-e9b3-49ca-8d7b-112264069a5d" />
 
 - API KEY        :    "sb_publishable_A-iGwxUMWBgVZlPXICsSlw_0DBwpIfp"
+
+
+### Example
+
+```python
+# pip install supabase
+# pip show supabase
+
+
+# from supabase import create_client
+# 
+# url = "YOUR_PROJECT_URL"
+# key = "YOUR_PUBLISHABLE_KEY"
+# 
+# supabase = create_client(url, key)
+# 
+# print("Supabase client initialized!")
+
+
+
+
+# from PySide6.QtWidgets import *
+# 
+# from supabase_db import supabase
+# 
+# 
+# class Employee(QWidget):
+# 
+    # def loadEmployees(self):
+# 
+        # response = supabase.table("employee").select("*").execute()
+# 
+        # employees = response.data
+# 
+        # print(employees)
+        
+
+```
