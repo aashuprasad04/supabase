@@ -24,8 +24,8 @@
 
 4. UPDATE
 ```sql
-  update emp
-  set name = 'RAMAN' , age = 26
+  update public.emp
+  set name = 'RAMAN'
   where id = 1;
 ```
   <img width="488" height="187" alt="image" src="https://github.com/user-attachments/assets/79df357a-0dbd-45a9-99f9-31dd6301e4ef" />
