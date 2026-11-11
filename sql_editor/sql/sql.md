@@ -53,4 +53,11 @@
     DELETE FROM employees;
     ```
 
+- DROP
+```sql
+# use if exists to avoid error
+DROP TABLE IF EXISTS employees;
+
+
+```
 
