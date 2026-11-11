@@ -35,4 +35,22 @@
   delete from public.emp
   where id = 1;
 ```
+  - EX01
+    ```sql
+    # And Operator (if both condition are true)
+    DELETE FROM employees
+    WHERE age = 23 AND salary = 18000;
+
+    # Or Operator (any one condition are true)
+    DELETE FROM employees
+    WHERE age = 22 OR age = 25;
+
+    # Delete multiple rows
+    DELETE FROM employees
+    WHERE salary < 18000;
+
+    # Delete all rows
+    DELETE FROM employees;
+    ```
+
 
