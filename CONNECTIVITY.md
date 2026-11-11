@@ -1,3 +1,9 @@
+```zsh
+python -m venv .venv
+source .venv/bin/activate
+```
+
+
 # Connection
 1. Install python library
 ```zsh
