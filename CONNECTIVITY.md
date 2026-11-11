@@ -1,5 +1,8 @@
 
 # Connection
+<img width="1919" height="287" alt="image" src="https://github.com/user-attachments/assets/f5e2c2e3-4b05-44af-9259-f0c1646738f1" />
+
+
 ```zsh
 python -m venv .venv
 source .venv/bin/activate
