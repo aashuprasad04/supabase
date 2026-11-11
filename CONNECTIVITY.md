@@ -8,6 +8,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+## Via API Key & URL
 1. Install python library
 ```zsh
 pip install supabase
