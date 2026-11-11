@@ -108,7 +108,7 @@ print("Supabase client initialized!")
 ```python
 # import sys
 # from PySide6.QtWidgets import *
-from databse import supabase
+from database import supabase
 
 # class MWindow(QWidget):
         
