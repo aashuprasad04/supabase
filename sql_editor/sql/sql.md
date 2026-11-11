@@ -57,7 +57,18 @@
 ```sql
 # use if exists to avoid error
 DROP TABLE IF EXISTS employees;
-
-
 ```
+- TRUNCATE – Delete All Rows
+```sql
+# basic syntax 
+TRUNCATE TABLE employees;
 
+# restart identity (means reset s.no.)
+TRUNCATE TABLE employees RESTART IDENTITY;
+
+# continue identity
+TRUNCATE TABLE employees CONTINUE IDENTITY;
+
+# cascade (fail truncate operation  'foreign key')
+TRUNCATE TABLE employees CASCADE;
+```
