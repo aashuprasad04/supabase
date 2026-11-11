@@ -30,3 +30,11 @@
 ```
   <img width="488" height="187" alt="image" src="https://github.com/user-attachments/assets/79df357a-0dbd-45a9-99f9-31dd6301e4ef" />
 
+- DELETE
+```sql
+  delete from public.emp
+  where id = 1;
+```
+
+```
+
