@@ -13,6 +13,9 @@ source .venv/bin/activate
 python -m venv venv
 source ~/android-build-venv/bin/activate
 ```
+```zsh
+adb install -r test01-0.1-arm64-v8a-debug.apk
+```
 
 ```zsh
 pyside6-android-deploy \
@@ -23,6 +26,10 @@ pyside6-android-deploy \
 --ndk-path=/home/kali/Android/Sdk/ndk/28.2.13676358 \
 --keep-deployment-files
 ```
+```zsh
+buildozer android debug
+```
+
 ```zsh
 find . -name "buildozer.spec"
 ```
