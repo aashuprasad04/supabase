@@ -3,7 +3,9 @@ adb logcat -c
 adb logcat -d -v time > ~/Desktop/app_error.txt
 grep -iE "FATAL EXCEPTION|Traceback|Python|Qt|pyside|dlopen|AndroidRuntime|SIGABRT|libc" ~/Desktop/app_error.txt
 ```
-
+```zsh
+adb install -r test01-0.1-arm64-v8a-debug.apk
+```
 ```zsh
 python -m venv .venv
 source .venv/bin/activate
@@ -13,9 +15,7 @@ source .venv/bin/activate
 python -m venv venv
 source ~/android-build-venv/bin/activate
 ```
-```zsh
-adb install -r test01-0.1-arm64-v8a-debug.apk
-```
+
 
 ```zsh
 pyside6-android-deploy \
