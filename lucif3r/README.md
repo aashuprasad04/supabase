@@ -1,3 +1,8 @@
+```zsh
+adb logcat -c
+adb logcat -d -v time > ~/Desktop/app_error.txt
+grep -iE "FATAL EXCEPTION|Traceback|Python|Qt|pyside|dlopen|AndroidRuntime|SIGABRT|libc" ~/Desktop/app_error.txt
+```
 
 ```zsh
 python -m venv .venv
