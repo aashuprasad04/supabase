@@ -20,5 +20,13 @@ pyside6-android-deploy \
 --wheel-pyside=/home/kali/pyside-setup/dist_android/pyside6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl \
 --wheel-shiboken=/home/kali/pyside-setup/dist_android/shiboken6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl \
 --sdk-path=/home/kali/Android/Sdk \
---ndk-path=/home/kali/Android/Sdk/ndk/28.2.13676358
+--ndk-path=/home/kali/Android/Sdk/ndk/28.2.13676358 \
+--keep-deployment-files
 ```
+```zsh
+find . -name "buildozer.spec"
+```
+```zsh
+grep -nE "^(requirements|p4a.branch|p4a.commit)" PATH_TO_BUILDOZER_SPEC
+```
+
