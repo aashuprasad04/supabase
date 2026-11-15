@@ -17,3 +17,11 @@ headers = {
     "Prefer": "return=representation",
 }
 ```
+1. POST
+   ```zsh
+    data = {"name": "Rahul", "age": 22}
+    response = requests.post(URL, headers=headers, json=data)
+
+    print(response.status_code)
+    print(response.json())
+   ```
