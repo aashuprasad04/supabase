@@ -14,7 +14,7 @@
    --ndk-path=/home/kali/Android/Sdk/ndk/28.2.13676358 \
    --keep-deployment-files
    ```
-3. Update app using <ins>buildozer.spec</ins>
+3. Update app 
    ```zsh
    buildozer android debug
    ```
